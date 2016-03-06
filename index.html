@@ -76,6 +76,12 @@
           top: 1515px;
           margin: 0 0 0 400px;
         }
+        .project-caption-6 {
+          position: absolute;
+          width: 500px;
+          top: 1815px;
+          margin: 0 0 0 400px;
+        }
         a {
           text-decoration: none;
         }
@@ -209,50 +215,66 @@
             </div>
 
             </div>
-            <div class="projects">
-              <h2 style="padding-left: 20px">Project Highlights</h2>
-              <div class="project-content">
-                <div class="project-img-container">
-                  <img src="./assets/trackmonkey.png" class="project-img" />
+              <div class="projects">
+                <h2 style="padding-left: 20px">Project Highlights</h2>
+                <div class="project-content">
+                  <div class="project-img-container">
+                    <img src="./assets/trackmonkey.png" class="project-img" />
+                  </div>
+                    <a href= "http://trackmonkey.io" target = "_blank">Live</a> |
+                    <a href = "https://github.com/hankfanchiu/trackmonkey" target = "_blank">Code</a>
+                    <div class="project-caption" style="text-transform: none">
+                      <h3 style="padding-left: 20px">Trackmonkey</h3>
+                      <ul>
+                        <li>Tracks packages using tracking number (carrier name not needed)</li>
+                        <li>Listens for updates using webhooks and Shippo API</li>
+                        <li>Sends SMS updates via Twilio's text messaging API</li>
+                        <li>Visualization of package history using Google Maps</li>
+                        <li><b>First place winner of Shippo's sponsor challenge at the DeveloperWeek 2016 Hackathon</b></li>
+                      </ul>
+                    </div>
                 </div>
-                  <a href= "http://trackmonkey.io" target = "_blank">Live</a> |
-                  <a href = "https://github.com/hankfanchiu/trackmonkey" target = "_blank">Code</a>
-                  <div class="project-caption" style="text-transform: none">
-                    <h3 style="padding-left: 20px">Trackmonkey</h3>
+                <div class="project-content">
+                  <div class="project-img-container">
+                    <div id="drawing-widget" width=400 height=277></div><br/>
+                  </div>
+                    <a href = "https://www.github.com/jjjreisss/drawing-widget" target = "_blank">Code</a>
+                    <div class="project-caption-2" style="text-transform: none">
+                      <h3 style="padding-left: 20px">Drawing Widget</h3>
+                      <ul>
+                        <li>Drawing widget made with HTML5 Canvas and Javascript</li>
+                        <li>Designed to be easily embed into HTML pages</li>
+                        <li>Users just put a &lt;div id="drawing-widget"&gt; tag and a script line in their page to insert widget</li>
+                        <li>Use the mouse wheel to make the stroke bigger and smaller</li>
+                        <li>Drag across color spectrum to see color change in real time</li>
+                        <li>Save and clear image</li>
+                        <li>Try it out in the widget to your left!</li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="project-content">
+                  <div class="project-img-container">
+                    <div id="piano-widget" width=400 height=277></div><br/>
+                  </div>
+                  <a href = "https://www.github.com/jjjreisss/synth-widget" target = "_blank">Code</a>
+                  <div class="project-caption-3" style="text-transform: none">
+                    <h3 style="padding-left: 20px">Synth Widget</h3>
                     <ul>
-                      <li>Tracks packages using tracking number (carrier name not needed)</li>
-                      <li>Listens for updates using webhooks and Shippo API</li>
-                      <li>Sends SMS updates via Twilio's text messaging API</li>
-                      <li>Visualization of package history using Google Maps</li>
-                      <li><b>First place winner of Shippo's sponsor challenge at the DeveloperWeek 2016 Hackathon</b></li>
+                      <li>Piano widget made with HTML5's Web Audio API, HTML/CSS, and Javascript for DOM manipulation and playing logic</li>
+                      <li>Designed to be easily embedded into HTML pages</li>
+                      <li>Users just put a &lt;div id="piano-widget"&gt; tag and a script line in their page to insert widget</li>
+                      <li>Turn on and off by clicking the button in the lower right</li>
+                      <li>Play by using the keyboard (home-row keys control the white piano keys) or by clicking</li>
                     </ul>
                   </div>
-              </div>
-              <div class="project-content">
-                <div class="project-img-container">
-                  <div id="drawing-widget" width=400 height=277></div><br/>
                 </div>
-                  <a href = "https://www.github.com/jjjreisss/drawing-widget" target = "_blank">Code</a>
-                  <div class="project-caption-2" style="text-transform: none">
-                    <h3 style="padding-left: 20px">Drawing Widget</h3>
-                    <ul>
-                      <li>Drawing widget made with HTML5 Canvas and Javascript</li>
-                      <li>Designed to be easily embed into HTML pages</li>
-                      <li>Users just put a &lt;div id="drawing-widget"&gt; tag and a script line in their page to insert widget</li>
-                      <li>Use the mouse wheel to make the stroke bigger and smaller</li>
-                      <li>Drag across color spectrum to see color change in real time</li>
-                      <li>Save and clear image</li>
-                      <li>Try it out in the widget to your left!</li>
-                    </ul>
+                <div class="project-content">
+                  <div class="project-img-container">
+                    <img src="./assets/stamplife.png" class="project-img"/>
                   </div>
-              </div>
-              <div class="project-content">
-                <div class="project-img-container">
-                  <img src="./assets/stamplife.png" class="project-img"/>
-                </div>
                   <a href = "http://stamplife.co" target = "_blank">Live</a> |
                   <a href = "https://www.github.com/jjjreisss/StampLife" target = "_blank">Code</a>
-                  <div class="project-caption-3" style="text-transform: none">
+                  <div class="project-caption-4" style="text-transform: none">
                     <h3 style="padding-left: 20px">StampLife</h3>
                     <ul>
                       <li>Full stack web app built on Ruby on Rails, React.js/Flux, JQuery, Javascript, Html5, CSS3</li>
@@ -263,13 +285,13 @@
                       <li>Third-party image hosting using Cloudinary</li>
                     </ul>
                   </div>
-              </div>
+                </div>
               <div class="project-content">
                 <div class="project-img-container">
                   <img src="./assets/babys.png" class="project-img" />
                 </div>
                   <a href = "https://www.github.com/jjjreisss/Babys-First-MVC" target = "_blank">Code</a>
-                  <div class="project-caption-4" style="text-transform: none">
+                  <div class="project-caption-5" style="text-transform: none">
                     <h3 style="padding-left: 20px">Baby's First MVC</h3>
                     <ul>
                       <li>Web framework built on Ruby, inspired by Rails</li>
@@ -285,7 +307,7 @@
                 </div>
                   <a href = "http://jjjreisss.github.io/Grappling-Block/" target = "_blank">Live</a> |
                   <a href = "https://www.github.com/jjjreisss/Grappling-Block" target = "_blank">Code</a>
-                  <div class="project-caption-5" style="text-transform: none">
+                  <div class="project-caption-6" style="text-transform: none">
                     <h3 style="padding-left: 20px">Grappling Block</h3>
                     <ul>
                       <li>Built on Phaser.js</li>
@@ -294,8 +316,10 @@
                   </div>
               </div>
             </div>
+          </div>
         </div>
 
         <script async src="https://rawgit.com/jjjreisss/drawing-widget/master/lib/widget.js"></script>
+        <script async src="https://rawgit.com/jjjreisss/synth-widget/master/widget.js"></script>
     </body>
 </html>
